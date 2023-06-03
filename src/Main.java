@@ -8,7 +8,7 @@ public class Main {
         //  2. using scanner to capture user input
         //  3. create while loop that will end for wrong input
 
-        //computer moves rock paper scissor
+        //computer moves {rock paper scissor}
         String[] rps = {"r","p","s"};
         String computer = rps[new Random().nextInt(rps.length)];
 
@@ -17,6 +17,7 @@ public class Main {
         String userMove;
         //loop control
         while (true){
+
 
             System.out.println("Please enter your move 'r', 'p' or 's'.");
             userMove = sc.nextLine();
